@@ -1,0 +1,5 @@
+FROM python:latest
+
+RUN python3 -m pip install -U discord.py[voice]
+
+CMD python3 /root/discordApp/bot.py
